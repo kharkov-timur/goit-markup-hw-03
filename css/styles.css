@@ -211,14 +211,17 @@ a {
 
 .team-card {
   width: calc((100% - 72px) / 4);
-  padding-bottom: 32px;
-  text-align: center;
   background-color: var(--background-color);
   border-radius: 0 0 4px 4px;
   box-shadow:
     0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.team-card-text {
+  padding: 32px 0;
+  text-align: center;
 }
 
 .filter-button {
